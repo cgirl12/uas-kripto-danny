@@ -3,8 +3,6 @@
 namespace App\Http\Controllers;
 
 use Gregwar\Captcha\CaptchaBuilder;
-use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Session;
 
 class CaptchaController extends Controller
 {

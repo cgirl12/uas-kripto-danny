@@ -13,7 +13,7 @@
                 <!-- Logo -->
                 <div class="shrink-0 flex items-center">
                     <a href="{{ route('dashboard') }}">
-                        <img src="{{ asset('image/logo-intan.png') }}" alt="Logo" class="logo-dashboard">
+                        <img src="{{ asset('image/logo-danny.png') }}" alt="Logo" class="logo-dashboard rounded-full">
                     </a>
                 </div>
 

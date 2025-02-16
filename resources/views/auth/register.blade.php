@@ -41,11 +41,11 @@
         <!-- Captcha -->
         <div class="mt-4">
             <x-input-label for="captcha" :value="__('Captcha')" />
-            <div class="flex items-center">
+            <div class="flex items-center justify-center">
                 <img src="{{ route('captcha.image') }}" id="captchaImage" alt="Captcha" class="rounded shadow" />
                 <button type="button" id="refreshCaptcha"
                     class="ml-2 text-sm text-gray-500 hover:text-gray-700 transition focus:outline-none">
-                    Refresh
+                    Reload
                 </button>
             </div>
             <x-text-input id="captcha" class="block mt-1 w-full" type="text" name="captcha" required

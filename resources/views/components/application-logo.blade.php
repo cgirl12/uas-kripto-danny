@@ -1,1 +1,1 @@
-<img src="{{ asset('image/logo-intan.png') }}" alt="Logo" class="w-32 h-32 rounded-full md:w-48 md:h-48">
+<img src="{{ asset('image/logo-danny.png') }}" alt="Logo" class="h-20 w-auto rounded-full">
